@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thing 2</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/StoryPath.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        #where_are_you{
+            float: center;
+            display: grid;
+            place-items: center;
+            height: 90vh;
+            margin: 0;
+        }
+        #responsebox{
+            display: grid;
+            place-items: center;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+        place-items: center;
+        height: 100vh;
+        margin: 0;>>
+    <!--- css for centering the text --->
+
+<h1 id="where_are_you">Where are you?</h1>
+<form action="/PHP/Response.php" method="Post" id="responsebox">
+    <select name="response">
+        <option value="response1">Idk man i just got here.</option>
+        <option value="response2">I clicked thing2.</option>
+        <option value="response3">At this website.</option>
+        <option value="response4">Fym "where are you"?</option>
+        <option value="response5">I prefer not to answer.</option>
+    </select><br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

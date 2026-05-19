@@ -1,0 +1,57 @@
+body{
+    font-family: Roboto, arial;
+}
+.Menu1{
+    display: inline-block;
+    font-family:Roboto, arial;
+    font-weight: 500;
+    position:fixed
+}
+.Menu1 button{
+    background-color: #4e6eff;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+}
+.Menu1 a{
+    display: block;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.Menu1 .MenuContent1{
+    display:none;
+    position: absolute;
+    background-color: #9ec8ff;
+    min-width:175px;
+    min-height: auto;
+}
+.Menu1:hover .MenuContent1{
+    display: block;
+}
+.Menu1:hover button{
+    background-color: #509afc;
+}
+.Menu1 a:hover{
+    background-color: #5fb5ee;
+}
+.Menu1 .MenuContent1 #suprise{
+    display:none;
+}
+.Menu1 .MenuContent1 #thebomb:hover + #suprise,
+.Menu1 .MenuContent1 #suprise:hover {
+    display:block;
+}
+.Menu1 .MenuContent1 #thebomb{
+    background-color: #ac88ff;
+}
+.Menu1 .MenuContent1 #suprise{
+    background-color: #b89cff;
+}
+.Menu1 .MenuContent1 #thebomb:hover{
+    background-color: #d0bcff;
+}
+.Menu1 .MenuContent1 #suprise:hover{
+    background-color: #dcceff;
+}
